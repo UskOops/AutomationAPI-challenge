@@ -1,5 +1,5 @@
 
-# 🧪 Desafio Técnico – Automação de Testes de API com Cypress
+# Desafio Técnico – Automação de Testes de API com Cypress
 
 Este projeto foi desenvolvido como solução para um **desafio técnico de QA** com foco em automação de testes de **API REST** utilizando o framework [Cypress](https://www.cypress.io/).
 
@@ -11,15 +11,15 @@ O objetivo é testar a API pública [DummyJSON](https://dummyjson.com/docs), val
 
 | Caso de Teste                         | Endpoint                                | Status Esperado |
 |--------------------------------------|-----------------------------------------|-----------------|
-| 🔐 Autenticação de login             | `POST /auth/login`                      | 201 Created     |
-| 👥 Listar usuários com paginação     | `GET /users`                            | 200 OK          |
-| 🔎 Consultar usuário por ID          | `GET /users/:id`                        | 200 OK          |
-| 🛒 Criar produto autenticado         | `POST /auth/products/add`               | 201 Created     |
-| 🚫 Validação de erros                | Ex: login inválido, ID inexistente, etc | 400 / 404       |
+|  Autenticação de login             | `POST /auth/login`                      | 201 Created     |
+|  Listar usuários com paginação     | `GET /users`                            | 200 OK          |
+|  Consultar usuário por ID          | `GET /users/:id`                        | 200 OK          |
+|  Criar produto autenticado         | `POST /auth/products/add`               | 201 Created     |
+|  Validação de erros                | Ex: login inválido, ID inexistente, etc | 400 / 404       |
 
 ---
 
-## 🧱 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 .
@@ -38,7 +38,7 @@ O objetivo é testar a API pública [DummyJSON](https://dummyjson.com/docs), val
 
 ---
 
-## 💡 Comandos Customizados
+## Comandos Customizados
 
 Este projeto utiliza um comando Cypress customizado para login automático:
 
@@ -60,7 +60,7 @@ Cypress.Commands.add('login', () => {
 
 ---
 
-## 🔐 Variáveis de Ambiente
+## Variáveis de Ambiente
 
 Crie um arquivo `cypress.env.json` na raiz do projeto com as seguintes credenciais:
 
@@ -71,11 +71,11 @@ Crie um arquivo `cypress.env.json` na raiz do projeto com as seguintes credencia
 }
 ```
 
-> ⚠️ Este arquivo está no `.gitignore` e **não deve ser versionado**.
+>  Este arquivo está no `.gitignore` e **não deve ser versionado**.
 
 ---
 
-## 🧪 Como Executar os Testes
+## Como Executar os Testes
 
 ### Instale as dependências
 
