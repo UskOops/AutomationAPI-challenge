@@ -66,8 +66,8 @@ Crie um arquivo `cypress.env.json` na raiz do projeto com as seguintes credencia
 
 ```json
 {
-  "username": "emilys",
-  "password": "emilyspass"
+  "username": "xxxxx",
+  "password": "xxxxx"
 }
 ```
 
